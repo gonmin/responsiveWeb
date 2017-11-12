@@ -225,7 +225,7 @@ header .main ul li a:active {
 
 /*广告部分*/
 .ad {
-	display: none;
+	/*display: none;*/
 }
 
 /*平台特点*/
@@ -243,7 +243,7 @@ header .main ul li a:active {
 	box-shadow: 0 0 4px #ccc;
 }
 .feature .item + .item {
-	margin-right: 1.5rem;
+	margin-left: 1.5rem;
 }
 .feature .item h3 {
 	display: inline-block;
@@ -501,8 +501,93 @@ footer ul li .icon1 {
 	.trans-report a {
 		font-size: 1.2rem;
 	}
+
+	.product h2 {
+		float: none;
+		width: 100%;
+		margin-top: 2rem;
+		font-size: 2.2rem;
+	}
+	.product h2 em:first-child {
+		margin-top: 0;
+	}
+	.product h2 em {
+		display: inline;
+		font-style: 1.2rem;
+	}
+	.product .product-content {
+		float: none;
+		width: 100%;
+	}
+	.product .product-content .item h3{
+		margin-bottom: 0;
+	}
+	.product .product-content .item h3 em {
+		font-size: 2.4rem;
+	}
+	.product .product-content .item .info {
+		padding: 1rem 1rem 0;
+		font-size: 1.2rem;
+	}
+	.product .product-content .item .info p {
+		font-size: 2rem;
+	}
+	.product .product-content .item .buy a {
+		margin: 0.5rem auto;
+	}
+
+	.footer-content .brand {
+		display: none;
+	}
+	.footer-content ul {
+		width: 20%;
+	}
+	.footer-content ul li {
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	.footer-content ul li.title {
+		font-size: 1.4rem;
+		line-height: 2.5rem;
+	}
 }
 @media only screen and (max-width: 30em) {
+	.footer-content {
+		width: 98%;
+
+	}
+	.footer-content ul li.title {
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+	.product h2 em:first-child:before {
+		content: '';
+		display: table;
+	}
+
+	.product .product-content .item h3 em {
+		font-size: 2rem;
+		margin-right: 0;
+	}
+	.product .product-content .item .info {
+		float: right;
+		width: 70%;
+		padding: 1rem 0;
+		border: 0;
+	}
+	.product .product-content .item .info p {
+		font-size: 1.8rem;
+	}
+	.product .product-content .item .buy {
+		clear: both;
+		float: none;
+		width: 100%;
+		padding: 1rem 0 2rem;
+	}
+	.product .product-content .item .buy a {
+		margin-top: 0;
+		max-width: 26rem;
+	}
 	header .main ul li {
 		line-height: 3rem;
 		list-style: none;
@@ -529,6 +614,47 @@ footer ul li .icon1 {
 	.trans-report a {
 		padding: 0;
 	}
+
+	.feature {
+		width: 96%;
+		margin: 1rem auto;
+	}
+	.feature .item {
+		display: block;
+		width: auto;
+	}
+	.feature .item + .item {
+		margin: 1rem 0 0;
+	}
+
+	.notice {
+		width: 96%;
+		margin: 1rem auto;
+		font-size: 1.2rem;
+	}
+	.notice a {
+		margin-left: 1rem;
+	}
+	.notice a span {
+		display: none;
+	}
+
+	
+}
+@media only screen and (min-width: 30.0625em) and (max-width: 50em){
+	header .top ul li a {
+		color: red;
+	}
+	.feature .item h3,
+	.feature .item p {
+		display: block;
+		width: 100%;
+		font-size: 2.6rem;
+		text-align: center;
+	}
+	.feature .item p{
+		font-size: 1.2rem;
+	}	
 
 
 	
