@@ -1,4 +1,4 @@
-body {
+锘縝ody {
 	margin: 0;
 	padding: 0;
 }
@@ -75,7 +75,7 @@ li {
 }
 
 
-/*自定义页面样式*/
+/*脳脭露篓脪氓脪鲁脙忙脩霉脢陆*/
 body {
 	font-size: 1.2rem;
 	line-height: 1.5;
@@ -92,7 +92,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-/*网站头部*/
+/*脥酶脮戮脥路虏驴*/
 header {
 	width: 100%;
 }
@@ -177,12 +177,12 @@ header .main ul li a:active {
 
 
 
-/*主内容区域*/
+/*脰梅脛脷脠脻脟酶脫貌*/
 .container {
 	width: 100%;
 }
 
-/*交易信息部分*/
+/*陆禄脪脳脨脜脧垄虏驴路脰*/
 .transaction {
 	width: 100%;
 	background-color: #7c7365;
@@ -223,12 +223,12 @@ header .main ul li a:active {
 	color: #fff;
 }
 
-/*广告部分*/
+/*鹿茫赂忙虏驴路脰*/
 .ad {
 	/*display: none;*/
 }
 
-/*平台特点*/
+/*脝陆脤篓脤脴碌茫*/
 .feature {
 	width: 90%;
 	margin: 2rem auto;
@@ -263,7 +263,7 @@ header .main ul li a:active {
 	color: #999;
 }
 
-/*最新公告*/
+/*脳卯脨脗鹿芦赂忙*/
 .notice {
 	width: 90%;
 	margin: 2rem auto;
@@ -285,7 +285,7 @@ header .main ul li a:active {
 	overflow: hidden;
 }
 .notice a:first-child:before {
-	content: '最新公告\00a0\00a0';
+	content: '';
 	color: #aaa;
 }
 .notice a span {
@@ -300,7 +300,7 @@ header .main ul li a:active {
 	color: #ff9900;
 }
 
-/*产品列表*/
+/*虏煤脝路脕脨卤铆*/
 .product {
 	width: 90%;
 	margin: 2rem auto;
@@ -443,7 +443,7 @@ header .main ul li a:active {
 	font-size: 1.6rem;
 	line-height: 3rem;
 }
-/*底部*/
+/*碌脳虏驴*/
 footer {
 	width: 100%;
 	padding: 3rem 0 5rem;
