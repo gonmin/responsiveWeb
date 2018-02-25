@@ -3,7 +3,7 @@ body {
 	padding: 0;
 }
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 	color: #222;
 }
 ::selection {
@@ -295,5 +295,5 @@ footer ul li .icon {
 footer ul li .icon1 {
 	width: 38px;
 	height: 27px;
-	background-position: -369px -45px; 
+	background-position: -369px -45px;
 }
